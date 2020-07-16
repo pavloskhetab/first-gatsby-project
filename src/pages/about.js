@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styles from "./about.module.css"
 import Header from "../components/header"
 import Container from "../components/container"
@@ -20,7 +19,6 @@ const User = props => (
 export default function About() {
   return (
     <Layout style={{ color: `black` }}>
-      <Link to="/">Home</Link>
       <Container>
         <Header headerText="About Pavlos" />
         <Header headerText="About The Man" />
