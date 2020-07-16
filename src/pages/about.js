@@ -22,7 +22,7 @@ export default function About() {
       <Container>
         <Header headerText="About Pavlos" />
         <Header headerText="About The Man" />
-        <p>Such magnificence. Very awesome.</p>
+        <p>Such magnificence. Very awesome. Lots of fun.</p>
 
         <User
           username="Jane Doe"
