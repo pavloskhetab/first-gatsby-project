@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import styles from "./about.module.css"
 import Header from "../components/header"
 import Container from "../components/container"
+import Layout from "../components/layout"
 
 console.log(styles)
 
@@ -18,25 +19,24 @@ const User = props => (
 
 export default function About() {
   return (
-    <div style={{ color: `black` }}>
-      <Link to="/">Home</Link> 
+    <Layout style={{ color: `black` }}>
+      <Link to="/">Home</Link>
       <Container>
-      <Header headerText="About Eyegor" />
-      <Header headerText="About The Doc" />     
-      <p>Such magnificence. Very awesome.</p>
+        <Header headerText="About Pavlos" />
+        <Header headerText="About The Man" />
+        <p>Such magnificence. Very awesome.</p>
 
-      <User
-        username="Jane Doe"
-        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
-        excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-      />
-      <User
-        username="Bob Smith"
-        avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-        excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-      />
-
+        <User
+          username="Jane Doe"
+          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+          excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        />
+        <User
+          username="Bob Smith"
+          avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
+          excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        />
       </Container>
-    </div>
+    </Layout>
   )
 }
