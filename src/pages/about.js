@@ -20,7 +20,6 @@ export default function About() {
   return (
     <Layout style={{ color: `black` }}>
       <Container>
-        <Header headerText="About Pavlos" />
         <Header headerText="About The Man" />
         <p>Such magnificence. Very awesome. Lots of fun.</p>
 
