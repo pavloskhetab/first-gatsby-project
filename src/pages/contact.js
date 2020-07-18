@@ -7,7 +7,7 @@ export default function Contact() {
     <Layout style={{ color: `teal` }}>
       <Header headerText="Contact" />
       <p>Give us a shout!</p>
-      <a href="mailto:me@example.com">pavlos@yoyo.com</a>
+      <a href="mailto:pavlos@yoyo.com">pavlos@yoyo.com</a>
     </Layout>
   )
 }
